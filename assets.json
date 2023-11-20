@@ -1,0 +1,16 @@
+{
+    "assets": {
+        "models": {
+            "basefolder": "models",
+            "list": [
+                { "filename": "splash/fmod_splash.fbx", "assetid": "model_fmod_splash" }
+            ]
+        },
+        "soundbanks": {
+            "basefolder": "soundbanks",
+            "list": [
+                { "filename": "master.bank", "assetid": "sound_master_bank" }
+            ]
+        }
+    }
+}
