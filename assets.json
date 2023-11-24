@@ -6,10 +6,10 @@
                 { "filename": "splash/fmod_splash.fbx", "assetid": "model_fmod_splash" }
             ]
         },
-        "soundbanks": {
-            "basefolder": "soundbanks",
+        "textures": {
+            "basefolder": "textures",
             "list": [
-                { "filename": "master.bank", "assetid": "sound_master_bank" }
+                { "filename": "splash/splash_fmod.png", "assetid": "diffuse_fmod_splash" }
             ]
         }
     }
