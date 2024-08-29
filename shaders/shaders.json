@@ -1,0 +1,172 @@
+{
+"_comments0": " VALID USAGE:",
+"_comments1": "   stage = 'vertex', 'tessellation_control', 'tessellation_evaluation', 'geometry', 'fragment', or 'compute'",
+"_comments2": "   ** WARNING ** - Nested structures are not supported, so don't use them! '",
+
+"shaders":
+    [
+    {
+    "stage":    "vertex",
+    "filename": "simple.vert"
+    },
+    {
+    "stage":    "vertex",
+    "filename": "test.vert",
+    "uniforms":
+        [
+        {
+        "uniform_name": "UBO",
+        "shader_params":
+            [
+            { "name": "VKN_SHADER_PARAM_VECTOR_NAME_MODELVIEWPROJECTION_X", "floats": "4" },
+            { "name": "VKN_SHADER_PARAM_VECTOR_NAME_MODELVIEWPROJECTION_Y", "floats": "4" },
+            { "name": "VKN_SHADER_PARAM_VECTOR_NAME_MODELVIEWPROJECTION_Z", "floats": "4" },
+            { "name": "VKN_SHADER_PARAM_VECTOR_NAME_MODELVIEWPROJECTION_W", "floats": "4" }
+            ]
+        }
+        ]
+    },
+    {
+    "stage":    "vertex",
+    "filename": "pos2_tex2.vert",
+    "uniforms":
+        [
+        {
+        "uniform_name": "UBO",
+        "shader_params":
+            [
+            { "name": "VKN_SHADER_PARAM_VECTOR_NAME_MODELVIEWPROJECTION_X", "floats": "4" },
+            { "name": "VKN_SHADER_PARAM_VECTOR_NAME_MODELVIEWPROJECTION_Y", "floats": "4" },
+            { "name": "VKN_SHADER_PARAM_VECTOR_NAME_MODELVIEWPROJECTION_Z", "floats": "4" },
+            { "name": "VKN_SHADER_PARAM_VECTOR_NAME_MODELVIEWPROJECTION_W", "floats": "4" }
+            ]
+        }
+        ]
+    },
+    {
+    "stage":    "vertex",
+    "filename": "uniforms.vert",
+    "uniforms":
+        [
+        {
+        "uniform_name": "my_uniform",
+        "shader_params":
+            [
+            { "name": "VKN_SHADER_PARAM_VECTOR_NAME_MODELVIEW_X", "floats": "4" },
+            { "name": "VKN_SHADER_PARAM_VECTOR_NAME_MODELVIEW_Y", "floats": "4" },
+            { "name": "VKN_SHADER_PARAM_VECTOR_NAME_MODELVIEW_Z", "floats": "4" },
+            { "name": "VKN_SHADER_PARAM_VECTOR_NAME_MODELVIEW_W", "floats": "4" },
+            { "name": "VKN_SHADER_PARAM_VECTOR_NAME_COLOR_0",     "floats": "2" }
+            ]
+        },
+        {
+        "uniform_name": "happen_uniform",
+        "shader_params":
+            [
+            { "name": "VKN_SHADER_PARAM_VECTOR_NAME_PROJECTION_X", "floats": "3" }
+            ]
+        }
+        ]
+    },
+    {
+    "stage":    "vertex",
+    "filename": "diffuse.vert",
+    "uniforms":
+        [
+        {
+        "uniform_name": "UBO",
+        "shader_params":
+            [
+            { "name": "VKN_SHADER_PARAM_VECTOR_NAME_MODEL_X",               "floats": "4" },
+            { "name": "VKN_SHADER_PARAM_VECTOR_NAME_MODEL_Y",               "floats": "4" },
+            { "name": "VKN_SHADER_PARAM_VECTOR_NAME_MODEL_Z",               "floats": "4" },
+            { "name": "VKN_SHADER_PARAM_VECTOR_NAME_MODEL_W",               "floats": "4" },
+            { "name": "VKN_SHADER_PARAM_VECTOR_NAME_MODELVIEWPROJECTION_X", "floats": "4" },
+            { "name": "VKN_SHADER_PARAM_VECTOR_NAME_MODELVIEWPROJECTION_Y", "floats": "4" },
+            { "name": "VKN_SHADER_PARAM_VECTOR_NAME_MODELVIEWPROJECTION_Z", "floats": "4" },
+            { "name": "VKN_SHADER_PARAM_VECTOR_NAME_MODELVIEWPROJECTION_W", "floats": "4" }
+            ]
+        }
+        ]
+    },
+    {
+    "stage":    "fragment",
+    "filename": "simple.frag"
+    },
+    {
+    "stage":    "fragment",
+    "filename": "test.frag",
+    "uniforms":
+        [
+        {
+        "uniform_name": "UBO",
+        "shader_params":
+            [
+            { "name": "VKN_SHADER_PARAM_VECTOR_NAME_COLOR_0", "floats": "4" }
+            ]
+        }
+        ]
+    },
+    {
+    "stage":    "fragment",
+    "filename": "uniforms.frag",
+    "uniforms":
+        [
+        {
+        "uniform_name": "abra",
+        "shader_params":
+            [
+            { "name": "VKN_SHADER_PARAM_VECTOR_NAME_COLOR_0", "floats": "4" }
+            ]
+        },
+        {
+        "uniform_name": "tex",
+        "image": "VKN_SHADER_PARAM_IMAGE_NAME_1"
+        }
+        ]
+    },
+    {
+    "stage":    "fragment",
+    "filename": "diffuse.frag",
+    "uniforms":
+        [
+        {
+        "uniform_name": "UBO_GLOBALS",
+        "shader_params":
+            [
+            { "name": "VKN_SHADER_PARAM_VECTOR_NAME_ONE_OVER_GAMMA", "floats": "1" }
+            ]
+        },
+        {
+        "uniform_name": "UBO",
+        "shader_params":
+            [
+            { "name": "VKN_SHADER_PARAM_VECTOR_NAME_DIFFUSE_LIGHT_DIR", "floats": "3" }
+            ]
+        },
+        {
+        "uniform_name": "texture0",
+        "image": "VKN_SHADER_PARAM_IMAGE_NAME_0"
+        }
+        ]
+    },
+    {
+    "stage":    "fragment",
+    "filename": "tex1_mod_color.frag",
+    "uniforms":
+        [
+        {
+        "uniform_name": "UBO",
+        "shader_params":
+            [
+            { "name": "VKN_SHADER_PARAM_VECTOR_NAME_COLOR_0", "floats": "4" }
+            ]
+        },
+        {
+        "uniform_name": "texture0",
+        "image": "VKN_SHADER_PARAM_IMAGE_NAME_0"
+        }
+        ]
+    }
+    ]
+}

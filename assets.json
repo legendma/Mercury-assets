@@ -6,13 +6,6 @@
                 { "filename": "splash/fmod_splash.fbx", "assetid": "model_fmod_splash" }
             ]
         },
-        "shaders": {
-            "basefolder": "shaders",
-            "list": [
-                { "filename": "shader_vs_mvp.hlsl",  "assetid": "shader_vs_mvp",  "target": "vs_5_0", "entry_point": "vs_main" },
-                { "filename": "shader_ps_flat.hlsl", "assetid": "shader_ps_flat", "target": "ps_5_0", "entry_point": "ps_main" }
-            ]
-        },
         "textures": {
             "basefolder": "textures",
             "list": [
