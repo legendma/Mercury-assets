@@ -12,6 +12,18 @@
                 { "filename": "splash_fmod.png",   "assetid": "intro_fmod"   },
                 { "filename": "splash_studio.png", "assetid": "intro_studio" }
             ]
+        },
+        "sound_sample": {
+            "basefolder": "sounds",
+            "list": [
+                { "filename": "sample_test.mp3", "assetid": "sample_test" }
+            ]
+        },
+        "sound_music": {
+            "basefolder": "sounds",
+            "list": [
+                { "filename": "music_test.mp3", "assetid": "music_test" }
+            ]
         }
     }
 }
