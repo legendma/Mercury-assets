@@ -1,16 +1,16 @@
 {
     "assets": {
-        "models": {
+        "model": {
             "basefolder": "models",
             "list": [
-                { "filename": "splash/fmod_splash.fbx", "assetid": "model_fmod_splash" },
-                { "filename": "knight/knight.fbx",      "assetid": "model_knight"      }
+                { "filename": "knight/knight.fbx",  "assetid": "knight"      }
             ]
         },
-        "textures": {
+        "texture": {
             "basefolder": "textures",
             "list": [
-                { "filename": "splash/splash_fmod.png", "assetid": "diffuse_fmod_splash" }
+                { "filename": "splash_fmod.png",   "assetid": "intro_fmod"   },
+                { "filename": "splash_studio.png", "assetid": "intro_studio" }
             ]
         }
     }
