@@ -1,16 +1,14 @@
 {
     "assets": {
+        "font": {
+            "list": [
+                { "filename": "arial.ttf",  "assetid": "arial_14", "pt":  14, "glyphs": "__all" }
+            ]
+        },
         "model": {
             "basefolder": "models",
             "list": [
                 { "filename": "knight/knight.fbx",  "assetid": "knight"      }
-            ]
-        },
-        "texture": {
-            "basefolder": "textures",
-            "list": [
-                { "filename": "splash_fmod.png",   "assetid": "intro_fmod"   },
-                { "filename": "splash_studio.png", "assetid": "intro_studio" }
             ]
         },
         "sound_sample": {
@@ -23,6 +21,13 @@
             "basefolder": "sounds",
             "list": [
                 { "filename": "music_test.mp3", "assetid": "music_test" }
+            ]
+        },
+        "texture": {
+            "basefolder": "textures",
+            "list": [
+                { "filename": "splash_fmod.png",   "assetid": "intro_fmod"   },
+                { "filename": "splash_studio.png", "assetid": "intro_studio" }
             ]
         }
     }
