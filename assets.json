@@ -2,7 +2,7 @@
     "assets": {
         "font": {
             "list": [
-                { "filename": "arial.ttf",  "assetid": "arial_14", "pt":  14, "glyphs": "__all" }
+                { "filename": "arial.ttf",  "assetid": "arial_24", "pt":  24, "glyphs": "__all" }
             ]
         },
         "model": {
