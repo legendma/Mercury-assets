@@ -2,7 +2,8 @@
     "assets": {
         "font": {
             "list": [
-                { "filename": "arial.ttf",  "assetid": "arial_24", "pt":  24, "glyphs": "__all" }
+                { "filename": "karmina bold.otf",    "assetid": "karminabold_40",   "pt":  40, "glyphs": "__all" },
+                { "filename": "vanderick.ttf",  "assetid": "vanderick_80", "pt":  80, "glyphs": "__all" }
             ]
         },
         "model": {
