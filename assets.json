@@ -2,8 +2,8 @@
     "assets": {
         "font": {
             "list": [
-                { "filename": "karmina bold.otf",    "assetid": "karminabold_40",   "pt":  40, "glyphs": "__all" },
-                { "filename": "vanderick.ttf",  "assetid": "vanderick_80", "pt":  80, "glyphs": "__all" }
+                { "filename": "karmina bold.otf", "assetid": "karminabold_40", "pt":  40, "glyphs": "__all" },
+                { "filename": "vanderick.ttf",    "assetid": "vanderick_80",   "pt":  80, "glyphs": "__all" }
             ]
         },
         "model": {
@@ -15,7 +15,10 @@
         "sound_sample": {
             "basefolder": "sounds",
             "list": [
-                { "filename": "sample_test.mp3", "assetid": "sample_test" }
+                { "filename": "sample_test.mp3", "assetid": "sample_test" },
+                { "filename": "ui1.mp3", "assetid": "ui1" },
+                { "filename": "ui2.mp3", "assetid": "ui2" },
+                { "filename": "ui3.mp3", "assetid": "ui3" }
             ]
         },
         "sound_music": {
@@ -28,7 +31,8 @@
             "basefolder": "textures",
             "list": [
                 { "filename": "splash_fmod.png",   "assetid": "intro_fmod"   },
-                { "filename": "splash_studio.png", "assetid": "intro_studio" }
+                { "filename": "splash_studio.png", "assetid": "intro_studio" },
+                { "filename": "white.png",         "assetid": "white"        }
             ]
         }
     }
