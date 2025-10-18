@@ -16,9 +16,9 @@
             "basefolder": "sounds",
             "list": [
                 { "filename": "sample_test.mp3", "assetid": "sample_test" },
-                { "filename": "ui1.mp3", "assetid": "ui1" },
-                { "filename": "ui2.mp3", "assetid": "ui2" },
-                { "filename": "ui3.mp3", "assetid": "ui3" }
+                { "filename": "ui1.mp3", "assetid": "ui_select" },
+                { "filename": "ui2.mp3", "assetid": "ui_move" },
+                { "filename": "ui3.mp3", "assetid": "ui_back" }
             ]
         },
         "sound_music": {
