@@ -32,7 +32,10 @@
             "list": [
                 { "filename": "splash_fmod.png",   "assetid": "intro_fmod"   },
                 { "filename": "splash_studio.png", "assetid": "intro_studio" },
-                { "filename": "white.png",         "assetid": "white"        }
+                { "filename": "white.png",         "assetid": "white"        },
+                { "filename": "red.png",           "assetid": "red"          },
+                { "filename": "green.png",         "assetid": "green"        },
+                { "filename": "blue.png",          "assetid": "blue"         }
             ]
         }
     }
