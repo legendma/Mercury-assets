@@ -2,6 +2,7 @@
     "assets": {
         "font": {
             "list": [
+                { "filename": "karmina bold.otf", "assetid": "karminabold_16", "pt":  16, "glyphs": "__all" },
                 { "filename": "karmina bold.otf", "assetid": "karminabold_40", "pt":  40, "glyphs": "__all" },
                 { "filename": "vanderick.ttf",    "assetid": "vanderick_80",   "pt":  80, "glyphs": "__all" }
             ]
