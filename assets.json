@@ -37,7 +37,8 @@
                 { "filename": "mid_gray.png",      "assetid": "mid_gray"     },
                 { "filename": "red.png",           "assetid": "red"          },
                 { "filename": "green.png",         "assetid": "green"        },
-                { "filename": "blue.png",          "assetid": "blue"         }
+                { "filename": "blue.png",          "assetid": "blue"         },
+                { "filename": "terr_128_128.png",  "assetid": "terr_128_128" }
             ]
         }
     }
