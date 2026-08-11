@@ -31,14 +31,16 @@
         "texture": {
             "basefolder": "textures",
             "list": [
-                { "filename": "splash_fmod.png",   "assetid": "intro_fmod"   },
-                { "filename": "splash_studio.png", "assetid": "intro_studio" },
-                { "filename": "white.png",         "assetid": "white"        },
-                { "filename": "mid_gray.png",      "assetid": "mid_gray"     },
-                { "filename": "red.png",           "assetid": "red"          },
-                { "filename": "green.png",         "assetid": "green"        },
-                { "filename": "blue.png",          "assetid": "blue"         },
-                { "filename": "terr_128_128.png",  "assetid": "terr_128_128" }
+                { "filename": "splash_fmod.png",             "assetid": "intro_fmod"             },
+                { "filename": "splash_studio.png",           "assetid": "intro_studio"           },
+                { "filename": "white.png",                   "assetid": "white"                  },
+                { "filename": "mid_gray.png",                "assetid": "mid_gray"               },
+                { "filename": "red.png",                     "assetid": "red"                    },
+                { "filename": "green.png",                   "assetid": "green"                  },
+                { "filename": "blue.png",                    "assetid": "blue"                   },
+                { "filename": "terr_128_128.png",            "assetid": "terr_128_128"           },
+                { "filename": "terr_dry_leaves_a.png",  "assetid": "terr_dry_leaves_a" },
+                { "filename": "terr_dry_leaves_n.png",  "assetid": "terr_dry_leaves_n" }
             ]
         }
     }
